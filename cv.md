@@ -1,3 +1,0 @@
-# My cv
-
-## Renatka
