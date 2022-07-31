@@ -23,7 +23,10 @@ After a few years and moving to Moscow i decided to resume studying. I want to c
 ## Code example
 
 ```
-will undate later
+function User() { 
+  console.log(this);
+}
+new User(); // User {}
 ```
 
 ## Education
