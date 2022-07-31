@@ -7,3 +7,33 @@
 **Telegram:** @r_mardanov\
 **Instagram:** @renat.mardanov 
 
+## About myself:
+
+I have been dreaming about working in IT since high school. So, after graduation I entered *the faculty of programming in computer systems* and a year after getting a diploma took courses *Junior Front-end Developer*. However, I didn't find a job in IT in my town and began to work in another field.
+
+After a few years and moving to Moscow i decided to resume studying. I want to continue developing in this fild because it still interest me a lot.
+
+## Skills
+
+* HTML5
+* CSS3
+* JS Basic
+* GIT
+
+## Code example
+
+```
+will undate later
+```
+
+## Education
+* The faculty of programming in computer systems
+* Courses :
+    * HTML Academy (complete)
+    * Junior Front-end Developer (complete)
+    * RS School (In process)
+
+## English
+
+**A2** (I'm lerning english now)
+
