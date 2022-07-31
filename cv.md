@@ -11,7 +11,7 @@
 
 I have been dreaming about working in IT since high school. So, after graduation I entered *the faculty of programming in computer systems* and a year after getting a diploma took courses *Junior Front-end Developer*. However, I didn't find a job in IT in my town and began to work in another field.
 
-After a few years and moving to Moscow i decided to resume studying. I want to continue developing in this fild because it still interest me a lot.
+After a few years and moving to Moscow i decided to resume studying. I want to continue developing in this field because it still interests me a lot.
 
 ## Skills
 
@@ -34,9 +34,9 @@ new User(); // User {}
 * Courses :
     * HTML Academy (complete)
     * Junior Front-end Developer (complete)
-    * RS School (In process)
+    * RS School (in process)
 
 ## English
 
-**A2** (I'm lerning english now)
+**A2** (I'm learning English now)
 
