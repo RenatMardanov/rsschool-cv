@@ -37,3 +37,13 @@ while (i < string.length) {
 return result;
 }
 ```
+## Education
+* The faculty of programming in computer systems
+## Courses :
+    * HTML Academy (complete)
+    * Junior Front-end Developer (complete)
+    * RS School (in process)
+
+## English
+
+**A2** (I'm learning English now)
