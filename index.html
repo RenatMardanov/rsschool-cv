@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Renat Mardanov</title>
     <link rel="stylesheet" href="./css/slyle.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -19,6 +17,7 @@
                     <li><a href="#about">Summary</a></li>
                     <li><a href="#skill">Skills</a></li>
                     <li><a href="#code">Code</a></li>
+                    <li><a href="#courses">Courses</a></li>
                     <li><a href="#project">Projects</a></li>
                     <li><a href="#education">Education</a></li>
                     <li><a href="#english">English</a></li>
@@ -27,5 +26,98 @@
         </div>
     </header>
     
+        <section class="container myProfile">
+            <div class="photo"><img src="./img/photo/avatar.jpg" alt="my_photo" class="avatar"></div>
+            <div class="career">
+                <div class="name">
+                    <h1>Renat Mardanov</h1>
+                </div>
+                <div class="job">
+                    <h3>Junior Front-end developer</h3>
+                </div>
+            </div>
+        </section>
+        <main class="container main-container">
+        <section class="contact" id="contact">
+            <h3 id="contacts">Contacts</h3>
+            <ul class="contact-list">
+                <li class="listItemLocation list">Moscow, Russia</li>
+                <li class="listItemPhone list">Phone: <a href="tel:+79850200180">+7 985-020-01-80</a></li>
+                <li class="listItemEmail list">E-mail: <a href="mailto:rent1995@ya.ru">rent1995@ya.ru</a></li>
+                <li class="listItemTG list">Telegram  : <a href="https://t.me/r_mardanov">@r_mardanov</a></li>
+                <li class="listItemInsta list">Instagram: <a href="https://instagram.com/renat.mardanov">@renat.mardanov</a></li>
+            </ul>
+            
+        </section>
+        <section class="about" id="about">
+            <h3 id="about">About myself:</h3>            
+            <p>I have been dreaming about working in IT since high school. So, after graduation I entered *the faculty of programming in computer systems* and a year after getting a diploma took courses *Junior Front-end Developer*.<p/>
+            <p>However, I didn't find a job in IT in my town and began to work in another field.
+                After a few years and moving to Moscow i decided to resume studying. I want to continue developing in this field because it still interests me a lot.</p></section>
+        <section class="skill" id="skill">
+            <h3 id="skill">Skills</h3>       
+            <div class="skillList">
+                <div class="skillBox">
+                    <img src="/rsschool-cv/img/icon/HTML.png" alt="HTML">
+                    <p>HTML</p>
+                </div>
+                <div class="skillBox">
+                    <img src="/rsschool-cv/img/icon/CSS.png" alt="CSS">
+                    <p>CSS</p>
+                </div>
+                <div class="skillBox">
+                    <img src="/rsschool-cv/img/icon/JS.png" alt="js">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skillBox">
+                    <img src="/rsschool-cv/img/icon/Git.png" alt="Git">
+                    <p>Git</p>
+                </div>               
+            </div>
+        </section>
+        <section class="code" id="code">
+            <h3 id="code">Code</h3>        
+            <pre>
+                const filterString = (string, symbol) => {
+                    let i = 0;
+                    let result = '';
+                    while (i < string.length) {
+                        if (string[i] !== symbol) {
+                        result = `${result}${string[i]}`;
+                        } else {
+                         result = `${result}`;
+                         }
+                     i = i + 1;
+                    }
+                 return result;
+                }
+            </pre>
+        </section>
+        <section class="courses" id="courses">
+            <h3 id="courses">Courses</h3>        
+            <ul class="courseList">
+                <li class="courseItem">HTML Academy (complete)</li>
+                <li class="courseItem">Junior Front-end Developer (complete)</li>
+                <li class="courseItem">RS School (in process)</li>
+            </ul>
+        </section>
+        <section class="project" id="project">
+            <h3 id="project">Projects</h3>
+            <p><a href="#sdf">This CV</a></p>
+        </section>
+        <section class="education" id="education">
+            <h3 id="education">Education</h3>
+            <p>faculty of programming in computer systems</p>
+        </section>
+        <section class="english" id="english">
+            <h3 id="english">English</h3>
+            <p>A2 (I'm learning English now)</p>
+        
+        </section>
+    </main>
+    <footer class="container footer-container">
+        <div class="date">&copy;09.2022</div>
+        <div class="rslogo"><a href="https://rs.school/"><img src="/rsschool-cv/img/icon/rsschool.svg" alt="rs.school_logo"></a></div>
+    </footer>
 </body>
 </html>
