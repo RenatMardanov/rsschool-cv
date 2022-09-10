@@ -1,0 +1,289 @@
+@import url("./css-reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+}
+
+
+.container {
+    
+    margin: 0 auto;
+    width: 80%;
+    min-width: 770px;
+}
+
+
+.header-container {
+    display: flex;
+    height: 5em;
+    align-items: center;
+    justify-content: end;    
+    background: rgb(90,89,101);
+    background: linear-gradient(90deg, rgba(90,89,101,1) 0%, rgba(0,171,111,1) 80%);
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.7)
+    
+}
+
+
+.nav{
+    display: flex;
+    column-gap: 1.5em;
+    margin: 0 1em;
+}
+
+
+.nav li {
+    padding: 0.2em;
+}
+
+
+.nav a {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding: 0.5em;
+    font-size: 1em;
+    margin: 0 auto;
+    
+}
+
+
+.nav a::after{
+    display: block;
+    position: absolute;
+    bottom: 2px;
+    left: 1px;
+    content: '';
+    height: 2px;
+    width: 0%;
+    transition: width 0.5s;
+    background-color: white;
+}
+.nav a:hover::after, .nav a:focus::after {
+        width: 100%;     
+}
+
+
+.myProfile {
+    display: flex;
+    border-bottom: 20px solid rgba(50, 126, 106, 0.76);
+    align-items: center;
+    
+}
+
+
+.photo {
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    
+    
+}
+
+
+.avatar {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin: 50px 0;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.7)
+    
+}
+
+
+.career {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.name {
+    font-size: 2.5em;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    position: relative;
+}
+
+.name h1 {
+    font-weight: 700;
+    color: rgb(10, 56, 31);
+}
+
+
+.name::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 4px;
+    background: rgb(90,89,101);
+    background: linear-gradient(90deg, rgba(90,89,101,1) 0%, rgba(0,171,111,1) 70%);
+    position: absolute;
+    top: 2.5em;
+    left: 2.5em;
+}
+
+
+.job {
+    font-size: 2em;
+    color: #5a5965;
+}
+
+
+.main-container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+         
+ }
+
+
+ .main-container section {
+    width: 47%;
+    margin: 0 1em;
+    box-sizing: border-box;
+    padding: 7px;
+    color: rgb(75, 74, 85);
+    border-bottom: 2px solid gray;
+ }
+
+
+ .main-container h3 {
+    font-size: 1.5em;
+    color: #327e6a;
+    padding-bottom: 0.5em;
+ }
+
+
+ .listItemLocation::before {
+    display: inline-block;
+    content: url("/img/icon/Gps.svg");
+    width: 20px;
+    height: 20px;
+
+ }
+
+
+ .listItemPhone::before {
+    display: inline-block;
+    content: url("/img/icon/phone.svg");
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+
+ }
+
+
+ .listItemEmail::before {
+    display: inline-block;
+    content: url("/img/icon/mail.svg");
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+
+ }
+ 
+
+ .listItemTG::before {
+    display: inline-block;
+    content: url("/img/icon/telegram.svg");
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+
+ .listItemInsta::before {
+    display: inline-block;
+    content: url("/img/icon/instagram.svg");
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+ 
+
+.contact {
+    line-height:1.5em;
+    align-items: center ;
+} 
+ 
+
+.skillList img {
+    display: block;
+    height: 120px;
+    width: 120px;
+
+}
+
+
+.skillList {
+    display: flex;
+    justify-content: space-evenly;
+     text-align: center;
+}
+
+.skillBox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.skillBox p {
+    padding: 15px;
+    font-weight: bold;
+}
+
+
+.courseItem::before {
+    content: url("/img/icon/round.png");
+    height: 10px;
+    width: 10px;
+    margin-right: 4px;
+}
+
+
+.courseList {
+    line-height: 1.2em;
+}
+
+
+.main-container a {
+    text-decoration: none;
+    color: #174438; 
+    font-weight: 500;
+}
+
+
+.main-container a:hover {
+        color: #33c09a;    
+}
+
+
+.footer-container {
+    display: flex;
+    height: 5em;
+    align-items: center;
+    justify-content: space-between;    
+    background: rgb(90,89,101);
+    background: linear-gradient(90deg, rgba(90,89,101,1) 0%, rgba(0,171,111,1) 80%);
+    padding: 0 50px;
+}
+
+
+.rslogo img{
+    width: 150px;
+}
+
+
+.main-container section:last-child, .main-container section:nth-last-child(2) {
+    border: none;
+}
